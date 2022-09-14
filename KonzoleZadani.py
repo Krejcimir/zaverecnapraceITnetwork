@@ -97,7 +97,7 @@ class KonzoleZadani:
         | Přidat     | - Přidat nového pojistného
         | Smazat     | - Smaže pojišteného
         | Smazat_vše | - Smaže všechny pojištěné
-        | Vyhledat   | - Vyhledá uživatele
+        | Vyhledat   | - Vyhledá pojištence
         | Zavřít     | - Zavře adresář"""
         print(uvitat)
         while spusteno:
