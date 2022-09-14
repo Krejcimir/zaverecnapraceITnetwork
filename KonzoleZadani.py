@@ -44,11 +44,11 @@ class KonzoleZadani:
                 Telefon
                 Věk?""")
             odpoved = input()
-            if odpoved.lower() == "jmeno":
+            if odpoved.lower() == "jméno":
                 print("Zadejte jméno:")
                 jmeno = input()
             else:
-                if odpoved.lower() == "prijmeni":
+                if odpoved.lower() == "příjmení":
                     print("Zadejte příjmení:")
                     prijmeni = input()
                 else:
@@ -56,7 +56,7 @@ class KonzoleZadani:
                         print("Zadejte telefonní číslo:")
                         telefon = input()
                     else:
-                        if odpoved.lower() == "vek":
+                        if odpoved.lower() == "věk":
                             print("Zadejte věk:")
                             vek = input()
                         else:
